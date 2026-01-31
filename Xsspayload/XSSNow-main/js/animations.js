@@ -280,7 +280,7 @@ class AnimationController {
       {
         command: 'curl -s localhost:3000/api/status && whoami',
         output: `
-🌐 XSSNow Web Application Status:
+🌐 XSSvm Web Application Status:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ✅ Server Status: Online
