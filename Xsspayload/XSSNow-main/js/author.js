@@ -32,29 +32,29 @@
     console.log(`%c${asciiArt}`, styles.title);
     console.log('%c🥷 XSSvm - Ultimate XSS Payload Arsenal', styles.title);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
-    console.log('%c👨‍💻 Author: Sid Joshi (@dr34mhacks)', styles.author);
-    console.log('%c🔗 GitHub: https://github.com/dr34mhacks', styles.link);
-    console.log('%c💼 LinkedIn: https://www.linkedin.com/in/sid-j0shi/', styles.link);
-    console.log('%c🌐 Website: https://XSSvm.in', styles.link);
+    console.log('%c👨‍💻 Author: Vishal Gahlyan', styles.author);
+    console.log('%c🔗 GitHub: https://github.com/', styles.link);
+    console.log('%c💼 LinkedIn: ', styles.link);
+    console.log('%c🌐 Website: https://vmhacker.in', styles.link);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
     console.log('%c📝 For educational and authorized testing only', styles.warning);
     console.log('%c🛡️ Use responsibly and ethically', styles.warning);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
-    console.log('%c💡 Found a bug? Contribute: https://github.com/dr34mhacks/XSSvm', styles.info);
+    console.log('%c💡 Found a bug? Contribute: https://', styles.info);
     console.log('%c⭐ Like this project? Give it a star!', styles.info);
 
     // Easter egg for curious developers
     window.author = {
-        name: 'Sid Joshi',
-        username: 'dr34mhacks',
-        github: 'https://github.com/dr34mhacks',
-        linkedin: 'https://www.linkedin.com/in/sid-j0shi/',
+        name: 'Vishal Gahlyan',
+        username: 'admin',
+        github: 'https:',
+        linkedin: 'Link',
         project: 'XSSvm',
-        website: 'https://XSSvm.in',
+        website: 'https://vmhacker.com',
         message: 'Thanks for checking out the console! 🥷',
         hire: function() {
             console.log('%c💼  Let\'s connect on LinkedIn!', 'color: #00d4aa; font-size: 14px; font-weight: bold;');
-            window.open('https://www.linkedin.com/in/sid-j0shi/', '_blank');
+            window.open('', '_blank');
         }
     };
 
@@ -62,8 +62,8 @@
     window.XSSvm = {
         author: window.author,
         version: '1.0.0',
-        repository: 'https://github.com/dr34mhacks/XSSvm',
-        contribute: 'https://github.com/dr34mhacks/XSSvm/blob/main/CONTRIBUTING.md'
+        repository: 'https://github.com/Good0010/xss',
+        contribute: 'https://github.com/Good0010/xss/blob/main/Xsspayload/XSSNow-main/CONTRIBUTING.md'
     };
 
 })();
