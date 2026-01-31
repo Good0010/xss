@@ -1,4 +1,4 @@
-# XSSNow Robots.txt - Educational Security Research Platform
+# XSSvm Robots.txt - Educational Security Research Platform
 
 User-agent: *
 Allow: /
