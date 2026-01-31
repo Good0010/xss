@@ -1,11 +1,11 @@
-# 🤝 Contributing to XSSNow
+# 🤝 Contributing to XSSvm
 
 <div align="center">
 
 
 **Share Your XSS Discoveries. Become a Recognized Contributor.**
 
-[![Get Listed As Contributor](https://img.shields.io/badge/🌐_Find_Contributors-vshacker.com-00d4aa?style=for-the-badge)](https://vshacker.com/contributors.html)
+[![Get Listed As Contributor](https://img.shields.io/badge/🌐_Find_Contributors-vmhacker.com-00d4aa?style=for-the-badge)](https://vmhacker.com/contributors.html)
 
 </div>
 
@@ -14,7 +14,7 @@
 ## 🎯 **How to Add Your Payload**
 
 ### **Step 1: Fork the Repository**
-Fork the XSSNow repository on GitHub to your account: [Fork Repository](https://github.com/dr34mhacks/XSSNow/fork)
+Fork the XSSvm repository on GitHub to your account: [Fork Repository](https://github.com/dr34mhacks/XSSvm/fork)
 
 ### **Step 2: Add Your Payload**
 Edit `data/payloads.yaml` and add your XSS payload using YAML format (no escaping needed!):
@@ -91,7 +91,7 @@ Choose the most appropriate category for your payload:
 ## 🏆 **Contributor Recognition**
 
 ### **Automatic Benefits:**
-- Your name appears on [Contributors Page](https://vshacker.com/contributors.html)
+- Your name appears on [Contributors Page](https://vmhacker.com/contributors.html)
 - GitHub profile linked to your contributions
 - Payload attribution with your name/handle
 - Recognition in the security community
