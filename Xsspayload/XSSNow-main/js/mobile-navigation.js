@@ -1,5 +1,5 @@
 /**
- * Mobile Navigation Handler for XSSNow
+ * Mobile Navigation Handler for XSSvm
  * Handles mobile menu toggle, touch interactions, and responsive navigation
  */
 
