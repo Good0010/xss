@@ -20,7 +20,7 @@ Disallow: *.log
 Disallow: *.tmp
 
 # Sitemap location
-Sitemap: https://xssnow.in/sitemap.xml
+Sitemap: https://vshacker.com/sitemap.xml
 
 # Educational disclaimer
 # This site contains XSS payloads for authorized security testing only
