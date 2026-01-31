@@ -1,9 +1,9 @@
-/* XSSNow - Professional XSS Payload Generator */
+/* XSSvm - Professional XSS Payload Generator */
 
 class XSSPayloadGenerator {
   constructor() {
     this.payloadDatabase = [];
-    this.history = JSON.parse(localStorage.getItem('xssnow-history') || '[]');
+    this.history = JSON.parse(localStorage.getItem('XSSvm-history') || '[]');
     this.currentPayload = null;
     this.init();
   }
@@ -475,7 +475,7 @@ class XSSPayloadGenerator {
     // Keep only last 50 entries
     this.history = this.history.slice(0, 50);
 
-    localStorage.setItem('xssnow-history', JSON.stringify(this.history));
+    localStorage.setItem('XSSvm-history', JSON.stringify(this.history));
     this.renderHistory();
 
     console.log('Payload saved to history');
@@ -498,7 +498,7 @@ class XSSPayloadGenerator {
 
     // Keep only last 50 entries
     this.history = this.history.slice(0, 50);
-    localStorage.setItem('xssnow-history', JSON.stringify(this.history));
+    localStorage.setItem('XSSvm-history', JSON.stringify(this.history));
     this.renderHistory();
   }
 
@@ -514,7 +514,7 @@ class XSSPayloadGenerator {
       .join('\n');
 
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const filename = `xssnow-payloads-${timestamp}.txt`;
+    const filename = `XSSvm-payloads-${timestamp}.txt`;
 
     const blob = new Blob([payloadLines], { type: 'text/plain' });
     const url = window.URL.createObjectURL(blob);
