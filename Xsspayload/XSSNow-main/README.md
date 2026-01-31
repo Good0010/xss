@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![XSSvm Logo](/assets/xss_now_logo.png)
+![XSSvm Logo](/assets/)
 
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-XSSvm.in-00d4aa?style=for-the-badge)](https://XSSvm.in)
@@ -62,7 +62,7 @@ XSSvm transforms the chaotic landscape of XSS exploitation into a structured, in
 ---
 
 ### 🌐 **Instant Access**
-Visit [XSSvm.in](https://XSSvm.in) and start exploring immediately. No installation required.
+Visit [vmhacker.com](https://vmhacker.com) and start exploring immediately. No installation required.
 
 ---
 
@@ -113,11 +113,9 @@ Licensed under the MIT License - empowering open security research while maintai
 
 <div align="center">
 
-**Built with ❤️ by [Sid Joshi](https://www.linkedin.com/in/sid-j0shi/) ([@dr34mhacks](https://github.com/dr34mhacks))**
+**Built with ❤️ by [Vishal Gahlyan]()**
 
 *If XSS helped you once, XSSvm is here to help you every time.* 🛡️
 
 [![Visit XSSvm](https://img.shields.io/badge/Visit-XSSvm.in-00d4aa?style=for-the-badge)](https://XSSvm.in)
-[![Star on GitHub](https://img.shields.io/github/stars/dr34mhacks/XSSvm?style=for-the-badge)](https://github.com/dr34mhacks/XSSvm)
-
 </div>
