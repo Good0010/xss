@@ -1,6 +1,6 @@
-/* XSSNow - Main Application JavaScript - Updated 2025-12-31 */
+/* XSSvm - Main Application JavaScript - Updated 2025-12-31 */
 
-class XSSNow {
+class XSSvm {
   constructor() {
     this.payloadDatabase = [];
     this.filteredPayloads = [];
@@ -931,7 +931,7 @@ function scrollToSection(sectionId) {
 
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  window.xssNinja = new XSSNow();
+  window.xssNinja = new XSSvm();
 });
 
 // Add notification styles
