@@ -1,5 +1,5 @@
-// XSSNow Service Worker - PWA Functionality
-const CACHE_NAME = 'xssnow-v1.0.0';
+// XSSvm Service Worker - PWA Functionality
+const CACHE_NAME = 'XSSvm-v1.0.0';
 const STATIC_CACHE_URLS = [
     '/',
     '/index.html',
@@ -19,11 +19,11 @@ const STATIC_CACHE_URLS = [
 
 // Install event - cache static assets
 self.addEventListener('install', event => {
-    console.log('XSSNow SW: Installing...');
+    console.log('XSSvm SW: Installing...');
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => {
-                console.log('XSSNow SW: Caching static assets');
+                console.log('XSSvm SW: Caching static assets');
                 return cache.addAll(STATIC_CACHE_URLS);
             })
             .then(() => self.skipWaiting())
@@ -32,7 +32,7 @@ self.addEventListener('install', event => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', event => {
-    console.log('XSSNow SW: Activating...');
+    console.log('XSSvm SW: Activating...');
     event.waitUntil(
         caches.keys()
             .then(cacheNames => {
@@ -92,7 +92,7 @@ self.addEventListener('fetch', event => {
 // Background sync for offline payload submissions (future feature)
 self.addEventListener('sync', event => {
     if (event.tag === 'background-sync') {
-        console.log('XSSNow SW: Background sync triggered');
+        console.log('XSSvm SW: Background sync triggered');
         // Future: Handle offline payload submissions
     }
 });
@@ -101,7 +101,7 @@ self.addEventListener('sync', event => {
 self.addEventListener('push', event => {
     if (event.data) {
         const data = event.data.json();
-        console.log('XSSNow SW: Push received', data);
+        console.log('XSSvm SW: Push received', data);
 
         const options = {
             body: data.body || 'New XSS payloads available!',
@@ -114,7 +114,7 @@ self.addEventListener('push', event => {
         };
 
         event.waitUntil(
-            self.registration.showNotification(data.title || 'XSSNow', options)
+            self.registration.showNotification(data.title || 'XSSvm', options)
         );
     }
 });
