@@ -429,12 +429,12 @@ class PayloadsManager {
   }
 
   bookmarkPayload(payload, button) {
-    const bookmarks = JSON.parse(localStorage.getItem('xssnow-bookmarks') || '[]');
+    const bookmarks = JSON.parse(localStorage.getItem('XSSvm-bookmarks') || '[]');
     const isBookmarked = bookmarks.some(b => b.code === payload.code);
 
     if (isBookmarked) {
       const filteredBookmarks = bookmarks.filter(b => b.code !== payload.code);
-      localStorage.setItem('xssnow-bookmarks', JSON.stringify(filteredBookmarks));
+      localStorage.setItem('XSSvm-bookmarks', JSON.stringify(filteredBookmarks));
       button.innerHTML = '<i class="fas fa-bookmark"></i>';
       button.style.color = '';
     } else {
@@ -442,7 +442,7 @@ class PayloadsManager {
         ...payload,
         bookmarkedAt: new Date().toISOString()
       });
-      localStorage.setItem('xssnow-bookmarks', JSON.stringify(bookmarks));
+      localStorage.setItem('XSSvm-bookmarks', JSON.stringify(bookmarks));
       button.innerHTML = '<i class="fas fa-bookmark"></i>';
       button.style.color = 'var(--neon-green)';
     }
@@ -485,7 +485,7 @@ class PayloadsManager {
       .join('\n');
 
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const filename = `xssnow-filtered-payloads-${timestamp}.txt`;
+    const filename = `XSSvm-filtered-payloads-${timestamp}.txt`;
 
     const blob = new Blob([payloadLines], { type: 'text/plain' });
     const url = window.URL.createObjectURL(blob);
@@ -543,7 +543,7 @@ class PayloadsManager {
         category: 'basic',
         tags: ['basic', 'script', 'alert'],
         description: 'Basic script tag XSS payload',
-        contributor: 'XSSNow',
+        contributor: 'XSSvm',
         date_added: '2024-12-31'
       },
       {
@@ -551,7 +551,7 @@ class PayloadsManager {
         category: 'basic',
         tags: ['basic', 'img', 'onerror'],
         description: 'Image tag with onerror event',
-        contributor: 'XSSNow',
+        contributor: 'XSSvm',
         date_added: '2024-12-31'
       },
       {
@@ -559,7 +559,7 @@ class PayloadsManager {
         category: 'bypass',
         tags: ['svg', 'onload', 'bypass'],
         description: 'SVG tag with onload event',
-        contributor: 'XSSNow',
+        contributor: 'XSSvm',
         date_added: '2024-12-31'
       },
       {
@@ -567,7 +567,7 @@ class PayloadsManager {
         category: 'basic',
         tags: ['javascript', 'url'],
         description: 'JavaScript URL scheme',
-        contributor: 'XSSNow',
+        contributor: 'XSSvm',
         date_added: '2024-12-31'
       },
       {
@@ -575,7 +575,7 @@ class PayloadsManager {
         category: 'basic',
         tags: ['iframe', 'javascript'],
         description: 'Iframe with JavaScript URL',
-        contributor: 'XSSNow',
+        contributor: 'XSSvm',
         date_added: '2024-12-31'
       }
     ];
