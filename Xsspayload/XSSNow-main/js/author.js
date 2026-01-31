@@ -1,9 +1,9 @@
 /**
- * XSSNow - Ultimate XSS Payload Arsenal
- * Author: Sid Joshi (@dr34mhacks)
- * GitHub: https://github.com/dr34mhacks/XSSNow
- * Website: https://xssnow.in
- * LinkedIn: https://www.linkedin.com/in/sid-j0shi/
+ * XSSvm - Ultimate XSS Payload Arsenal
+ * Author: Vishal Gahlyan
+ * GitHub: 
+ * Website: https://vmhacker.com
+ * LinkedIn: 
  *
  * Built with ❤️ for the security research community
  * Licensed under MIT License
@@ -30,17 +30,17 @@
     `;
 
     console.log(`%c${asciiArt}`, styles.title);
-    console.log('%c🥷 XSSNow - Ultimate XSS Payload Arsenal', styles.title);
+    console.log('%c🥷 XSSvm - Ultimate XSS Payload Arsenal', styles.title);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
     console.log('%c👨‍💻 Author: Sid Joshi (@dr34mhacks)', styles.author);
     console.log('%c🔗 GitHub: https://github.com/dr34mhacks', styles.link);
     console.log('%c💼 LinkedIn: https://www.linkedin.com/in/sid-j0shi/', styles.link);
-    console.log('%c🌐 Website: https://xssnow.in', styles.link);
+    console.log('%c🌐 Website: https://XSSvm.in', styles.link);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
     console.log('%c📝 For educational and authorized testing only', styles.warning);
     console.log('%c🛡️ Use responsibly and ethically', styles.warning);
     console.log('%c════════════════════════════════════════', 'color: #00ff41;');
-    console.log('%c💡 Found a bug? Contribute: https://github.com/dr34mhacks/XSSNow', styles.info);
+    console.log('%c💡 Found a bug? Contribute: https://github.com/dr34mhacks/XSSvm', styles.info);
     console.log('%c⭐ Like this project? Give it a star!', styles.info);
 
     // Easter egg for curious developers
@@ -49,8 +49,8 @@
         username: 'dr34mhacks',
         github: 'https://github.com/dr34mhacks',
         linkedin: 'https://www.linkedin.com/in/sid-j0shi/',
-        project: 'XSSNow',
-        website: 'https://xssnow.in',
+        project: 'XSSvm',
+        website: 'https://XSSvm.in',
         message: 'Thanks for checking out the console! 🥷',
         hire: function() {
             console.log('%c💼  Let\'s connect on LinkedIn!', 'color: #00d4aa; font-size: 14px; font-weight: bold;');
@@ -59,11 +59,11 @@
     };
 
     // Add to global scope for easy access
-    window.xssnow = {
+    window.XSSvm = {
         author: window.author,
         version: '1.0.0',
-        repository: 'https://github.com/dr34mhacks/XSSNow',
-        contribute: 'https://github.com/dr34mhacks/XSSNow/blob/main/CONTRIBUTING.md'
+        repository: 'https://github.com/dr34mhacks/XSSvm',
+        contribute: 'https://github.com/dr34mhacks/XSSvm/blob/main/CONTRIBUTING.md'
     };
 
 })();
