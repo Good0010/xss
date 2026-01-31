@@ -1,6 +1,6 @@
-# XSSNinja Payload Database
+# XSSvm Payload Database
 # Community-driven collection of XSS payloads for security research
-# Simple format: contributor = person who submitted the payload to XSSNinja
+# Simple format: contributor = person who submitted the payload to XSSvm
 
 payloads:
   # === BASIC XSS PAYLOADS ===
