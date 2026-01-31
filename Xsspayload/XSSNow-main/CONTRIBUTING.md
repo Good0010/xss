@@ -118,7 +118,7 @@ Choose the most appropriate category for your payload:
 
 ---
 
-<div align="center">
+<div ="center">
 
 ## 🚀 **Ready to Contribute?**
 
