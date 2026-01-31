@@ -14,7 +14,7 @@
 ## 🎯 **How to Add Your Payload**
 
 ### **Step 1: Fork the Repository**
-Fork the XSSvm repository on GitHub to your account: [Fork Repository](https://github.com/dr34mhacks/XSSvm/fork)
+Fork the XSSvm repository on GitHub to your account: [Fork Repository](https://github.com/Good0010/xss/fork)
 
 ### **Step 2: Add Your Payload**
 Edit `data/payloads.yaml` and add your XSS payload using YAML format (no escaping needed!):
