@@ -2,11 +2,10 @@
 
 <div align="center">
 
-![XSSNow Logo](/assets/xss_now_logo.png)
 
 **Share Your XSS Discoveries. Become a Recognized Contributor.**
 
-[![Get Listed As Contributor](https://img.shields.io/badge/🌐_Find_Contributors-xssnow.in-00d4aa?style=for-the-badge)](https://xssnow.in/contributors.html)
+[![Get Listed As Contributor](https://img.shields.io/badge/🌐_Find_Contributors-vshacker.com-00d4aa?style=for-the-badge)](https://vshacker.com/contributors.html)
 
 </div>
 
@@ -92,7 +91,7 @@ Choose the most appropriate category for your payload:
 ## 🏆 **Contributor Recognition**
 
 ### **Automatic Benefits:**
-- Your name appears on [Contributors Page](https://xssnow.in/contributors.html)
+- Your name appears on [Contributors Page](https://vshacker.com/contributors.html)
 - GitHub profile linked to your contributions
 - Payload attribution with your name/handle
 - Recognition in the security community
@@ -125,6 +124,6 @@ Choose the most appropriate category for your payload:
 
 **Your expertise helps secure the web for everyone.**
 
-[![Fork & Contribute](https://img.shields.io/badge/Fork_&_Contribute-Now-00d4aa?style=for-the-badge)](https://github.com/dr34mhacks/XSSNow/fork)
+[![Fork & Contribute](https://img.shields.io/badge/Fork_&_Contribute-Now-00d4aa?style=for-the-badge)](https://github.com/Good0010/xss/fork)
 
 </div>
