@@ -1,4 +1,4 @@
-/* XSSNow - Contributors Management System */
+/* XSSvm - Contributors Management System */
 
 class ContributorsManager {
     constructor() {
@@ -220,7 +220,7 @@ class ContributorsManager {
 
     getBio(username) {
         const bioMap = {
-            'dr34mhacks': 'XSSNow creator and cybersecurity researcher',
+            'dr34mhacks': 'XSSvm creator and cybersecurity researcher',
             'mathiasbynens': 'JavaScript engine researcher and V8 team member',
             'portswigger': 'Creators of Burp Suite and web security research',
             'brutelogic': 'XSS research pioneer and security expert',
