@@ -1,6 +1,6 @@
 {
-  "name": "XSSNow - Ultimate XSS Payload Arsenal",
-  "short_name": "XSSNow",
+  "name": "XSSvm - Ultimate XSS Payload Arsenal",
+  "short_name": "XSSvm",
   "description": "Community-driven XSS vulnerability testing platform with curated payloads, advanced generator, WAF bypass techniques, and security research tools",
   "start_url": "/",
   "display": "standalone",
@@ -73,7 +73,7 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://xssnow.in"
+      "url": "https://vmhacker.com"
     }
   ],
   "prefer_related_applications": false,
