@@ -1,15 +1,15 @@
-# 🥷 XSSNow - The Ultimate XSS Arsenal
+# 🥷 XSSvm - The Ultimate XSS Arsenal
 
 <div align="center">
 
-![XSSNow Logo](/assets/xss_now_logo.png)
+![XSSvm Logo](/assets/xss_now_logo.png)
 
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-xssnow.in-00d4aa?style=for-the-badge)](https://xssnow.in)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-XSSvm.in-00d4aa?style=for-the-badge)](https://XSSvm.in)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 
-XSSNow is a community-driven, curated knowledge base of Cross-Site Scripting (XSS) payloads, designed to help security researchers, bug bounty hunters, and learners quickly find relevant, real-world payloads for different XSS scenarios.
+XSSvm is a community-driven, curated knowledge base of Cross-Site Scripting (XSS) payloads, designed to help security researchers, bug bounty hunters, and learners quickly find relevant, real-world payloads for different XSS scenarios.
 
 </div>
 
@@ -27,7 +27,7 @@ Cross-Site Scripting (XSS) vulnerabilities remain one of the most prevalent secu
 
 ## 🚀 **Our Solution**
 
-XSSNow transforms the chaotic landscape of XSS exploitation into a structured, intelligent arsenal. We've built more than just a payload database - we've created an ecosystem that understands context, evolves with defenses, and accelerates discovery.
+XSSvm transforms the chaotic landscape of XSS exploitation into a structured, intelligent arsenal. We've built more than just a payload database - we've created an ecosystem that understands context, evolves with defenses, and accelerates discovery.
 
 ### 🧠 **Intelligent Payload Organization**
 - **Context-Aware Categorization** - Payloads organized by injection context, not just syntax
@@ -49,9 +49,9 @@ XSSNow transforms the chaotic landscape of XSS exploitation into a structured, i
 
 ---
 
-## 🔥 **What Makes XSSNow Different**
+## 🔥 **What Makes XSSvm Different**
 
-| Traditional Approach | XSSNow Advantage |
+| Traditional Approach | XSSvm Advantage |
 |---------------------|------------------|
 | Static payload lists | Dynamic, context-aware generation |
 | Generic collections | Defense-specific categorization |
@@ -62,7 +62,7 @@ XSSNow transforms the chaotic landscape of XSS exploitation into a structured, i
 ---
 
 ### 🌐 **Instant Access**
-Visit [xssnow.in](https://xssnow.in) and start exploring immediately. No installation required.
+Visit [XSSvm.in](https://XSSvm.in) and start exploring immediately. No installation required.
 
 ---
 
@@ -86,7 +86,7 @@ Visit [xssnow.in](https://xssnow.in) and start exploring immediately. No install
 
 ## 🤝 **Join the Revolution**
 
-XSSNow thrives on community collaboration. Whether you're discovering new bypass techniques, improving existing payloads, or sharing knowledge - your contributions drive the platform forward.
+XSSvm thrives on community collaboration. Whether you're discovering new bypass techniques, improving existing payloads, or sharing knowledge - your contributions drive the platform forward.
 
 ### 💡 **Ways to Contribute**
 - **Submit Payloads** - Share your latest discoveries and bypass techniques
@@ -115,9 +115,9 @@ Licensed under the MIT License - empowering open security research while maintai
 
 **Built with ❤️ by [Sid Joshi](https://www.linkedin.com/in/sid-j0shi/) ([@dr34mhacks](https://github.com/dr34mhacks))**
 
-*If XSS helped you once, XSSNow is here to help you every time.* 🛡️
+*If XSS helped you once, XSSvm is here to help you every time.* 🛡️
 
-[![Visit XSSNow](https://img.shields.io/badge/Visit-xssnow.in-00d4aa?style=for-the-badge)](https://xssnow.in)
-[![Star on GitHub](https://img.shields.io/github/stars/dr34mhacks/XSSNow?style=for-the-badge)](https://github.com/dr34mhacks/XSSNow)
+[![Visit XSSvm](https://img.shields.io/badge/Visit-XSSvm.in-00d4aa?style=for-the-badge)](https://XSSvm.in)
+[![Star on GitHub](https://img.shields.io/github/stars/dr34mhacks/XSSvm?style=for-the-badge)](https://github.com/dr34mhacks/XSSvm)
 
 </div>
