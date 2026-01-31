@@ -1,11 +1,11 @@
 /**
- * XSSNow SEO Framework
+ * XSSvm SEO Framework
  * Implements programmatic SEO with dynamic metadata, internal linking, and performance optimization
  */
 
 class SEOFramework {
     constructor() {
-        this.baseUrl = 'https://xssnow.in';
+        this.baseUrl = 'https://XSSvm.in';
         this.currentPath = window.location.pathname;
         this.pageType = this.detectPageType();
         this.keywords = this.getPageKeywords();
@@ -80,7 +80,7 @@ class SEOFramework {
         // Update or create meta tags
         this.setMetaTag('description', metadata.description);
         this.setMetaTag('keywords', metadata.keywords.join(', '));
-        this.setMetaTag('author', 'XSSNow Security Research Team');
+        this.setMetaTag('author', 'XSSvm Security Research Team');
         this.setMetaTag('robots', 'index, follow');
         this.setMetaTag('viewport', 'width=device-width, initial-scale=1.0');
         this.setMetaTag('theme-color', '#00ff41');
@@ -90,19 +90,19 @@ class SEOFramework {
         this.setMetaProperty('og:description', metadata.description);
         this.setMetaProperty('og:type', 'website');
         this.setMetaProperty('og:url', window.location.href);
-        this.setMetaProperty('og:site_name', 'XSSNow - XSS Security Research Platform');
+        this.setMetaProperty('og:site_name', 'XSSvm - XSS Security Research Platform');
         this.setMetaProperty('og:image', `${this.baseUrl}/assets/og-image-${this.pageType}.jpg`);
         this.setMetaProperty('og:locale', 'en_US');
 
         // Twitter Card tags
         this.setMetaName('twitter:card', 'summary_large_image');
-        this.setMetaName('twitter:site', '@XSSNow');
+        this.setMetaName('twitter:site', '@XSSvm');
         this.setMetaName('twitter:title', metadata.title);
         this.setMetaName('twitter:description', metadata.description);
         this.setMetaName('twitter:image', `${this.baseUrl}/assets/twitter-card-${this.pageType}.jpg`);
 
         // Additional SEO tags
-        this.setMetaName('application-name', 'XSSNow');
+        this.setMetaName('application-name', 'XSSvm');
         this.setMetaName('msapplication-TileColor', '#00ff41');
         this.setMetaName('format-detection', 'telephone=no');
 
@@ -122,7 +122,7 @@ class SEOFramework {
     generateMetadata() {
         const metadataMap = {
             home: {
-                title: 'XSSNow - Ultimate XSS Payload Arsenal & Security Research Platform',
+                title: 'XSSvm - Ultimate XSS Payload Arsenal & Security Research Platform',
                 description: 'Comprehensive XSS vulnerability testing platform with 1000+ payloads, advanced generator, bypass techniques, and security research tools. Perfect for penetration testing and bug bounty hunting.',
                 keywords: this.keywords
             },
@@ -143,7 +143,7 @@ class SEOFramework {
             },
             contributors: {
                 title: 'XSS Security Researchers & Contributors - Bug Bounty Community',
-                description: 'Meet the security researchers, bug bounty hunters, and contributors who make XSSNow possible. Join our community of ethical hackers.',
+                description: 'Meet the security researchers, bug bounty hunters, and contributors who make XSSvm possible. Join our community of ethical hackers.',
                 keywords: this.keywords
             }
         };
@@ -170,7 +170,7 @@ class SEOFramework {
                     "@type": "WebSite",
                     "@id": `${this.baseUrl}/#website`,
                     "url": this.baseUrl,
-                    "name": "XSSNow",
+                    "name": "XSSvm",
                     "description": "Ultimate XSS Payload Arsenal & Security Research Platform",
                     "potentialAction": [{
                         "@type": "SearchAction",
@@ -185,14 +185,14 @@ class SEOFramework {
                 {
                     "@type": "Organization",
                     "@id": `${this.baseUrl}/#organization`,
-                    "name": "XSSNow Security Research",
+                    "name": "XSSvm Security Research",
                     "url": this.baseUrl,
                     "logo": {
                         "@type": "ImageObject",
                         "url": `${this.baseUrl}/assets/ninja.svg`
                     },
                     "sameAs": [
-                        "https://github.com/dr34mhacks/XSSNow",
+                        "https://github.com/dr34mhacks/XSSvm",
                         "https://twitter.com/dr34mhacks"
                     ]
                 }
@@ -217,7 +217,7 @@ class SEOFramework {
                 "description": "Comprehensive guide to cross-site scripting vulnerabilities, bypass techniques, and prevention methods",
                 "author": {
                     "@type": "Organization",
-                    "name": "XSSNow Security Research Team"
+                    "name": "XSSvm Security Research Team"
                 },
                 "datePublished": "2024-01-01",
                 "dateModified": new Date().toISOString().split('T')[0],
@@ -247,7 +247,7 @@ class SEOFramework {
                 "license": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "creator": {
                     "@type": "Organization",
-                    "name": "XSSNow Security Research"
+                    "name": "XSSvm Security Research"
                 }
             }
         };
